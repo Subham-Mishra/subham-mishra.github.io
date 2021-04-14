@@ -41,7 +41,7 @@ export default Footer = () => (
             <RightDiv>
                 Designed and developed by : SUBHAM MISHRA<br />
                 Computer Science & Engineering, CET Bhubaneshwar<br />
-                imsubham882@gmail.com<br />
+                cet.subham@gmail.com<br />
                 Phone No :- 8018821596<br /><br />
                 <Button
                     variant="contained"

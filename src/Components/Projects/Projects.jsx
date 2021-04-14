@@ -49,7 +49,7 @@ export default Projects = () => (
             />
             <Card
                 title="Weather-App"
-                desc="An SPA to display Current Temperature,Humidity and wind speed of a city."
+                desc="A SPA to display Current Temperature,Humidity and wind speed of a city."
                 link="https://github.com/Subham-Mishra/Weather-App"
                 stack={["ANGULAR"]}
             />
