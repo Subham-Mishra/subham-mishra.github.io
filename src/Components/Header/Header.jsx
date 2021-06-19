@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import Typed from 'react-typed';
+import scrollToComponent from 'react-scroll-to-component';
 import Particles from "./Particles";
 import { name, aboutMe } from '../../UserData/info.js';
 import '../../Styles/headerButtonAnimation.scss';
-import Resume from 'url:../../../public/Subham_Mishra_2021_CSE_CET_Resume.pdf'
+// import Resume from 'url:../../../public/Subham_Mishra_2021_CSE_CET_Resume.pdf'
 const Wrapper = styled.div`
     height: 100vh;
     postion:relative;
@@ -56,8 +57,9 @@ export default Header = () => {
                 <Br />
                 <Button
                     className='buttonfx slideleft'
-                    // onClick={() => { console.log('Clicked') }}>
-                    href={Resume}   target="_blank" download>
+                    onClick={() => scrollToComponent(this.Connect, { offset: 0, align: 'top', duration: 1500 })}>
+                    {/* onClick={() => { console.log('Clicked') }}> */}
+                    {/* href={Resume}   target="_blank" download> */}
                     Know more about me!
                 </Button>
             </Container>
