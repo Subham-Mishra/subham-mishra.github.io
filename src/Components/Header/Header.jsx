@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import Typed from 'react-typed';
-import scrollToComponent from 'react-scroll-to-component';
 import Particles from "./Particles";
 import { name, aboutMe } from '../../UserData/info.js';
 import '../../Styles/headerButtonAnimation.scss';
@@ -57,9 +56,8 @@ export default Header = () => {
                 <Br />
                 <Button
                     className='buttonfx slideleft'
-                    onClick={() => scrollToComponent(this.Connect, { offset: 0, align: 'top', duration: 1500 })}>
-                    {/* onClick={() => { console.log('Clicked') }}> */}
-                    {/* href={Resume}   target="_blank" download> */}
+                    // onClick={() => { console.log('Clicked') }}>
+                    href='https://linkedin.com/in/subham-mishra' target="_blank" >
                     Know more about me!
                 </Button>
             </Container>
