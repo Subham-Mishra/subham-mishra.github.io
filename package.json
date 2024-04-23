@@ -26,7 +26,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-nightly.620",
     "babel-preset-nano-react-app": "^0.1.0",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^5.0.0",
     "parcel": "^2.0.0-alpha.3.2"
   },
   "babel": {
